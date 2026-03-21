@@ -1,0 +1,10 @@
+{
+  "": "empty string key",
+  " ": "single space key",
+  "   ": "multiple spaces key",
+  "key with spaces": "value",
+  "special_chars!@#$%^&*()_+-=[]{}|;':,.<>?/`~": "value with special chars",
+  "123": "numeric key",
+  "true": "boolean key",
+  "null": "null key"
+}
