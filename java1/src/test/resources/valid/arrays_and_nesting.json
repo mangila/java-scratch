@@ -1,0 +1,17 @@
+{
+  "empty_array": [],
+  "nested_empty_arrays": [[], [[], []]],
+  "mixed_array": [1, "two", 3.0, true, false, null, [], {}],
+  "array_of_objects": [
+    {},
+    {"key": "value"},
+    {"nested": {"array": [1, 2, 3]}}
+  ],
+  "nested_object": {
+    "child": {
+      "grandchild": {
+        "value": 42
+      }
+    }
+  }
+}

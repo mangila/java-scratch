@@ -1,0 +1,37 @@
+# MegaLinter configuration file
+# More info at https://megalinter.io
+---
+# Configuration documentation: https://megalinter.io/latest/configuration/
+# Linters documentation: https://megalinter.io/latest/descriptors/
+
+# All available variables are described in documentation
+# https://megalinter.io/latest/configuration/#all-available-variables
+APPLY_FIXES: all
+DISABLE_ERRORS: true
+PRINT_ALL_FILES: true
+LOG_FILE: none
+FLAVOR_SUGGESTIONS: false
+SECURITY_SUGGESTIONS: false
+IGNORE_GITIGNORED_FILES: true
+CLEAR_REPORT_FOLDER: true
+
+LOG_LEVEL: DEBUG
+FAIL_IF_MISSING_LINTER_IN_FLAVOR: true
+ENABLE_LINTERS:
+  - JAVA_CHECKSTYLE
+  - JAVA_PMD
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
+  - XML_XMLLINT
+
+JAVA_CHECKSTYLE_CONFIG_FILE: google-checks.xml
+JAVA_PMD_CONFIG_FILE: pmd.xml
+
+MARKDOWN_SUMMARY_REPORTER: true
+CONSOLE_REPORTER: false
+GITHUB_COMMENT_REPORTER: false
+REPORTERS_MARKDOWN_TYPE: simple
+GITHUB_STATUS_REPORTER: false
+SARIF_REPORTER: true
+CONFIG_REPORTER: false
+UPDATED_SOURCES_REPORTER: false

@@ -1,0 +1,12 @@
+{
+	"tab_key"	:	"tab_value"	,
+	"spaced_key"   :   [
+		1   ,
+		2   ,
+		3
+	]   ,
+	"newlines" :
+	{
+		"nested" : "value"
+	}
+}
