@@ -1,0 +1,14 @@
+{
+  "quote": "\"",
+  "backslash": "\\",
+  "slash": "\/",
+  "backspace": "\b",
+  "formfeed": "\f",
+  "newline": "\n",
+  "carriage_return": "\r",
+  "tab": "\t",
+  "unicode_ascii": "\u0041\u0042\u0043",
+  "unicode_special": "\u0024\u00A3\u20AC",
+  "unicode_symbols": "\u2764\uFE0F \u263A",
+  "utf8_characters": "åäö ÅÄÖ éèê ñç 🚀 中文 日本語"
+}

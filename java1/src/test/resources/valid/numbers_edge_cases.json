@@ -1,0 +1,15 @@
+{
+  "zero": 0,
+  "minus_zero": -0,
+  "float_zero": 0.0,
+  "small_float": 0.00000001,
+  "large_integer": 9007199254740991,
+  "negative_large_integer": -9007199254740991,
+  "exp_lowercase": 1e5,
+  "exp_uppercase": 1E5,
+  "exp_plus": 1e+5,
+  "exp_minus": 1e-5,
+  "exp_float": 2.5e10,
+  "exp_negative_float": -2.5E-10,
+  "zero_exp": 0e0
+}
